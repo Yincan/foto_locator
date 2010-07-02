@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  latitude: MyString
+  longitude: MyString
+  radius: 
+  circule_id: 
+
+two:
+  latitude: MyString
+  longitude: MyString
+  radius: 
+  circule_id: 

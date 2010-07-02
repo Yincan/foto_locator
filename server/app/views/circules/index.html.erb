@@ -1,0 +1,32 @@
+<h1>Listing circules</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Phone number</th>
+    <th>Start at</th>
+    <th>End at</th>
+    <th>Create at</th>
+    <th>Flickr set url</th>
+    <th>References</th>
+  </tr>
+
+<% for circule in @circules %>
+  <tr>
+    <td><%=h circule.name %></td>
+    <td><%=h circule.phone_number %></td>
+    <td><%=h circule.start_at %></td>
+    <td><%=h circule.end_at %></td>
+    <td><%=h circule.create_at %></td>
+    <td><%=h circule.flickr_set_url %></td>
+    <td><%=h circule.references %></td>
+    <td><%= link_to 'Show', circule %></td>
+    <td><%= link_to 'Edit', edit_circule_path(circule) %></td>
+    <td><%= link_to 'Destroy', circule, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New circule', new_circule_path %>

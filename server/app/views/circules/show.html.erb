@@ -1,0 +1,38 @@
+<p>
+  <b>Name:</b>
+  <%=h @circule.name %>
+</p>
+
+<p>
+  <b>Phone number:</b>
+  <%=h @circule.phone_number %>
+</p>
+
+<p>
+  <b>Start at:</b>
+  <%=h @circule.start_at %>
+</p>
+
+<p>
+  <b>End at:</b>
+  <%=h @circule.end_at %>
+</p>
+
+<p>
+  <b>Create at:</b>
+  <%=h @circule.create_at %>
+</p>
+
+<p>
+  <b>Flickr set url:</b>
+  <%=h @circule.flickr_set_url %>
+</p>
+
+<p>
+  <b>References:</b>
+  <%=h @circule.references %>
+</p>
+
+
+<%= link_to 'Edit', edit_circule_path(@circule) %> |
+<%= link_to 'Back', circules_path %>

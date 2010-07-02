@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  phone_number: MyString
+  start_at: 2010-07-02
+  end_at: 2010-07-02
+  create_at: 2010-07-02
+  flickr_set_url: MyString
+  references: 
+
+two:
+  name: MyString
+  phone_number: MyString
+  start_at: 2010-07-02
+  end_at: 2010-07-02
+  create_at: 2010-07-02
+  flickr_set_url: MyString
+  references: 

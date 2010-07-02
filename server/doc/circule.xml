@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circules username="john">
+	<circule name="two-days-trip-to-NYC" phone_number="13125550007" 
+	         start_date="2010,3,4" end_date="2010,3,5" create_at="2010,3,8,08:09pm"
+			 flickr_set_url="http://www.flickr.com/photos/intridea/sets/72157623688178172/">
+		<site latitude="41.861115" longitude="-87.60463" radius="10">
+			<photo taken_time="2010,3,4,04:42am" thumbnail_url="http://farm5.static.flickr.com/4008/4460813675_2fc4a879e0_t.jpg"
+			       url="http://www.flickr.com/photos/intridea/4460813675/in/set-72157623688178172/" />
+			<photo taken_time="2010,3,4,04:43am" thumbnail_url="http://farm5.static.flickr.com/4008/4460813675_2fc4a879e0_t.jpg"
+                   url="http://www.flickr.com/photos/intridea/4460813675/in/set-72157623688178172/" />	   
+		</site>
+	</circule>
+</circules>
